@@ -3,7 +3,7 @@
 #include <OpenImageIO/imageio.h>
 namespace OpenImageIO = OIIO;
 Image3::Image3(const std::string &filename) {
-    std::unique_ptr<OpenImageIO::ImageInput> in = OpenImageIO::ImageInput::open(filename);
+    std::unique_ptr<OpenImageIO::ImageInput> in = std::make_unique<OpenImageIO::ImageInput>(OpenImageIO::ImageInput::open(filename));
     if (in == nullptr) {
         Error("File not found");
     }

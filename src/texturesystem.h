@@ -1,7 +1,6 @@
 #pragma once
 
 #include <OpenImageIO/texture.h>
-namespace OpenImageIO = OIIO;
 class TextureSystem {
     public:
     static void Init() {

@@ -7,9 +7,6 @@
 #include <stdexcept>
 #include "fastmath.h"
 
-
-namespace OpenImageIO = OIIO;
-
 template <int nChannels>
 class BitmapTexture : public Texture<nChannels> {
     public:
