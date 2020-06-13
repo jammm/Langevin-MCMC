@@ -5,7 +5,7 @@ EIGEN_INCLUDE   = -I/usr/include/eigen3
 OIIO_INCLUDE    = -I/usr/include/OpenImageIO
 OIIO_LIB        = -L/usr/lib
 # EMBREE 3.6.1
-EMBREE_INCLUDE  = -I/usr/lib/embree3/
+EMBREE_INCLUDE  = -I../embree3/include
 EMBREE_LIB      = -L../embree3/lib
 TBB_LIB         = -L/usr/lib
 # NANO FLANN library 
