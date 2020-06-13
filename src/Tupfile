@@ -2,10 +2,10 @@
 # Eigen 3.3-beta1
 EIGEN_INCLUDE   = -I/usr/include/eigen3
 # OIIO 1.7
-OIIO_INCLUDE    = -I../oiio/dist/linux64/include
-OIIO_LIB        = -L../oiio/dist/linux64/lib
+OIIO_INCLUDE    = -I/usr/include/OpenImageIO
+OIIO_LIB        = -L/usr/lib
 # EMBREE 3.6.1
-EMBREE_INCLUDE  = -I../embree3/include
+EMBREE_INCLUDE  = -I/usr/lib/embree3/
 EMBREE_LIB      = -L../embree3/lib
 TBB_LIB         = -L/usr/lib
 # NANO FLANN library 
